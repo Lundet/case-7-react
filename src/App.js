@@ -44,13 +44,16 @@ function App() {
   }
 
   return (
-    <div>
+    <main>
       <h1>{cinemaData.cinema.name}</h1>
       <h2>Movies</h2>
       <ul>
-        {cinemaData.cinema.movies.map(movie => <li>{movie.title},{movie.duration}</li>)}
+        {cinemaData.cinema.movies.map(movie => <li key={movie}>Title:{movie.title},<p>Duration:{movie.duration}</p>   
+        {movie.shows.map(shows => <p key={shows}><p>{shows.room}</p>Time:{shows.time}</p>)}    
+        </li>)}
       </ul>
-    </div>
+     
+    </main>
   );
 }
 
