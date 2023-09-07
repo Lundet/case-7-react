@@ -1,0 +1,82 @@
+{
+    "cinema": {
+      "name": "Hannes BIO",
+      "movies": [
+        {
+          "title": "Hunger Games",
+          "duration": "2H 22M",
+          "shows": [
+            {
+              "time": "2023-09-07T16:00:00.000Z",
+              "room": "Room 1",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            },
+            {
+              "time": "5:00 PM",
+              "room": "Room 2",
+              "seats": [
+                {"seatNumber": "B1", "booked": false},
+                {"seatNumber": "B2", "booked": true}
+              ]
+            }
+          ]
+        },
+        {
+          "title": "High School Musical",
+          "duration": "1H 38 M",
+          "shows": [
+            {
+              "time": "2023-09-07T15:00:00.000Z",
+              "room": "Room 3",
+              "seats": [
+                {"seatNumber": "C1", "booked": true},
+                {"seatNumber": "C2", "booked": false}
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Gudfadern ",
+          "duration": "2H 55M",
+          "shows": []
+        },
+        {
+          "title": "Interstellar",
+          "duration": "2H 49M",
+          "shows": [
+            {
+              "time": "2023-09-07T17:00:00.000Z",
+              "room": "Room 2",
+              "seats": [
+                {"seatNumber": "D1", "booked": false},
+                {"seatNumber": "D2", "booked": false}
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Inception",
+          "duration": "2H 28M",
+          "shows": [
+            {
+              "time": "2023-09-07T18:00:00.000Z",
+              "room": "Room 1",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
