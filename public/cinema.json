@@ -3,11 +3,13 @@
       "name": "Hannes BIO",
       "movies": [
         {
+          
           "title": "Hunger Games",
+          "image": "https://m.media-amazon.com/images/M/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1_.jpg",
           "duration": "2H 22M",
           "shows": [
             {
-              "time": "2023-09-07T16:00:00.000Z",
+              "time": "21:30",
               "room": "Room 1",
               "seats": [
                 {"seatNumber": "A1", "booked": false},
@@ -29,10 +31,11 @@
         },
         {
           "title": "High School Musical",
+          "image": "https://m.media-amazon.com/images/M/MV5BZmQ3MWEyNTYtOTY1OC00MTljLWI3OGUtMmU1ZDc2OTYxNDQ4L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTczNjQwOTY@._V1_.jpg",
           "duration": "1H 38 M",
           "shows": [
             {
-              "time": "2023-09-07T15:00:00.000Z",
+              "time": "18:00",
               "room": "Room 3",
               "seats": [
                 {"seatNumber": "C1", "booked": true},
@@ -42,16 +45,25 @@
           ]
         },
         {
-          "title": "Gudfadern ",
+          "title": "The Godfather",
+          "image":"https://img-cdn.sfanytime.com/COVERM/d62a7a15-6fa6-4cc4-aa26-a16200b45e96_COVERM_01.jpg?w=375&fm=pjpg&s=24265d1cf7f2a1da6539cb98fefae4bb",
           "duration": "2H 55M",
-          "shows": []
+          "shows": [{
+            "time": "18:00",
+            "room": "Room 3",
+            "seats": [
+              {"seatNumber": "C1", "booked": true},
+              {"seatNumber": "C2", "booked": false}
+            ]
+          }]
         },
         {
           "title": "Interstellar",
+          "image": "https://musicart.xboxlive.com/7/912b1000-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
           "duration": "2H 49M",
           "shows": [
             {
-              "time": "2023-09-07T17:00:00.000Z",
+              "time": "17:00",
               "room": "Room 2",
               "seats": [
                 {"seatNumber": "D1", "booked": false},
@@ -62,10 +74,102 @@
         },
         {
           "title": "Inception",
+          "image":"https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
           "duration": "2H 28M",
           "shows": [
             {
-              "time": "2023-09-07T18:00:00.000Z",
+              "time": "19:00",
+              "room": "Room 1",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Maze Runner",
+          "image":"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTwom1z3I98cMnZpUl9DN0aLLvr64kIpzeUPHclB_NoSsRVLE2V",
+          "duration": "1H 53M",
+          "shows": [
+            {
+              "time": "19:00",
+              "room": "Room 1",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            }
+          ]
+        }
+        ,
+        {
+          "title": "Barbie",
+          "image":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRiaMsHYpdf80moiUHsYEMWN_RR2O0jagD3Nu73-5VBYYrm3uCN",
+          "duration": "1h 54m",
+          "shows": [
+            {
+              "time": "19:00",
+              "room": "Room 1",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bridge to Terabithia",
+          "image":"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR467YWgpXrcom2s_qoziStW7p3TZjxXKGcqg0vpCWGmtfgzcnV",
+          "duration": "1H 36M",
+          "shows": [
+            {
+              "time": "19:00",
+              "room": "Room 1",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPPENHEIMER",
+          "image":"https://pbs.twimg.com/media/FvUVt3hXgAAxP1H?format=jpg&name=900x900",
+          "duration": "3H",
+          "shows": [
+            {
+              "time": "19:00",
+              "room": "Room 1",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cars",
+          "image":"https://lumiere-a.akamaihd.net/v1/images/p_cars_19643_4405006d.jpeg",
+          "duration": "1H 57M",
+          "shows": [
+            {
+              "time": "19:00",
               "room": "Room 1",
               "seats": [
                 {"seatNumber": "A1", "booked": false},
