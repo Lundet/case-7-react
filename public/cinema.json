@@ -20,7 +20,7 @@
               ]
             },
             {
-              "time": "5:00 PM",
+              "time": "18:00",
               "room": "Room 2",
               "seats": [
                 {"seatNumber": "B1", "booked": false},

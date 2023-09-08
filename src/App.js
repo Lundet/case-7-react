@@ -11,6 +11,15 @@ function App() {
   // state to track any error message
   const [error, setError] = useState(null);
 
+  const listSeatings = (evt) => {
+    return(
+    <p>
+      {show.seats.map((seat, seatIndex) => (
+        <p key={seatIndex}>{seat.seatNumber}</p>
+      ))}
+    </p>
+    )
+  }
 
 
   // trigger the arrow function inside useEffect ONE time before loading
@@ -50,11 +59,29 @@ function App() {
       <h1>{cinemaData.cinema.name}</h1>
       <h2>Movies Right Now</h2>
       <ul>
-        {cinemaData.cinema.movies.map(movie => <li key={movie}><img src={movie.image} alt="" width="150px"></img><p>Title:{movie.title}</p> <p>Duration:{movie.duration}</p>
-          {movie.shows.map(shows => <p key={shows}><p>{shows.room}</p>Time:{shows.time}</p>)}
-          <button className='book-now'>Book now</button>
-        </li>)}
+        {cinemaData.cinema.movies.map((movie, movieIndex) => (
+          <li key={movieIndex}>
+            <img src={movie.image} alt="" width="150px" />
+            <p>Title: {movie.title}</p>
+            <p>Duration: {movie.duration}</p>
+            <p>
+              {movie.shows.map((show, showIndex) => (
+                <p key={showIndex}>
+                  <p>Room: {show.room}</p>
+                  <p>Time: {show.time}</p>
+                  {/* <p>
+                    {show.seats.map((seat, seatIndex) => (
+                      <p key={seatIndex}>{seat.seatNumber}</p>
+                    ))}
+                  </p> */}
+                  <button className='book-now' onClick={(listSeatings) => (item)}>Book</button>
+                </p>
+              ))}
+            </p>
+          </li>
+        ))}
       </ul>
+
 
     </main>
   );
