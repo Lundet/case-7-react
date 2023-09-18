@@ -7,8 +7,9 @@
           "title": "Hunger Games",
           "image": "https://m.media-amazon.com/images/M/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1_.jpg",
           "duration": "2H 22M",
+          "description":"Katniss Everdeen voluntarily takes her younger sister's place in the Hunger Games: a televised competition in which two teenagers from each of the twelve Districts of Panem are chosen at random to fight to the death",
           "shows": [
-            {
+            {             
               "time": "21:30",
               "room": "Room 1",
               "seats": [
@@ -33,6 +34,7 @@
           "title": "High School Musical",
           "image": "https://m.media-amazon.com/images/M/MV5BZmQ3MWEyNTYtOTY1OC00MTljLWI3OGUtMmU1ZDc2OTYxNDQ4L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTczNjQwOTY@._V1_.jpg",
           "duration": "1H 38 M",
+          "description":"Troy Bolton, the school's number one sports star, and stud student Gabriella Galvez discover that they are very good at singing - together. Individually, their voices are mediocre at best, but together they are absolutely brilliant.",
           "shows": [
             {
               "time": "18:00",
@@ -48,6 +50,7 @@
           "title": "The Godfather",
           "image":"https://img-cdn.sfanytime.com/COVERM/d62a7a15-6fa6-4cc4-aa26-a16200b45e96_COVERM_01.jpg?w=375&fm=pjpg&s=24265d1cf7f2a1da6539cb98fefae4bb",
           "duration": "2H 55M",
+          "description":"It is the first installment in The Godfather trilogy, chronicling the Corleone family under patriarch Vito Corleone (Brando) from 1945 to 1955. It focuses on the transformation of his youngest son, Michael Corleone (Pacino), from reluctant family outsider to ruthless mafia boss",
           "shows": [{
             "time": "18:00",
             "room": "Room 3",
@@ -61,6 +64,7 @@
           "title": "Interstellar",
           "image": "https://musicart.xboxlive.com/7/912b1000-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
           "duration": "2H 49M",
+          "description" :"Cooper, an ex-astronaut and one of the engineers, is tasked with leading an intergalactic mission through a newly appeared wormhole to try and find a new home for the worldwide human race.",
           "shows": [
             {
               "time": "17:00",
@@ -76,6 +80,7 @@
           "title": "Inception",
           "image":"https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
           "duration": "2H 28M",
+          "description":"A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
           "shows": [
             {
               "time": "19:00",
@@ -94,6 +99,7 @@
           "title": "Maze Runner",
           "image":"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTwom1z3I98cMnZpUl9DN0aLLvr64kIpzeUPHclB_NoSsRVLE2V",
           "duration": "1H 53M",
+          "description":"The story is set in a distant future, where a group of teens are mysteriously teleported into a giant, stone maze. Not only has their memory been cleared, but they also have no indication as to why they have ended up in this position and what means they must take to escape.",
           "shows": [
             {
               "time": "19:00",
@@ -113,6 +119,7 @@
           "title": "Barbie",
           "image":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRiaMsHYpdf80moiUHsYEMWN_RR2O0jagD3Nu73-5VBYYrm3uCN",
           "duration": "1h 54m",
+          "description":"Living in Barbieland means being perfect in every way, in the absolutely perfect place. Unless you're a Ken. Or if you are suddenly hit by an existential crisis.",
           "shows": [
             {
               "time": "19:00",
@@ -131,6 +138,7 @@
           "title": "Bridge to Terabithia",
           "image":"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR467YWgpXrcom2s_qoziStW7p3TZjxXKGcqg0vpCWGmtfgzcnV",
           "duration": "1H 36M",
+          "description":"A preteen's life turns upside down when he befriends the new girl in school and they imagine a whole new fantasy world to escape reality.",
           "shows": [
             {
               "time": "19:00",
@@ -149,6 +157,7 @@
           "title": "OPPENHEIMER",
           "image":"https://pbs.twimg.com/media/FvUVt3hXgAAxP1H?format=jpg&name=900x900",
           "duration": "3H",
+          "description":"The story of the American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.",
           "shows": [
             {
               "time": "19:00",
@@ -167,6 +176,7 @@
           "title": "Cars",
           "image":"https://lumiere-a.akamaihd.net/v1/images/p_cars_19643_4405006d.jpeg",
           "duration": "1H 57M",
+          "description":"Lightning McQueen is a small racing car that happens to crash into the small community of Radiator Springs and cause mayhem and destruction. His punishment becomes community service, and he learns what it means to respect the residents of Radiator Springs.",
           "shows": [
             {
               "time": "19:00",

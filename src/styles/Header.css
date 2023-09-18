@@ -8,14 +8,14 @@ header {
 nav ul {
   list-style: none;
   padding: 0;
-  height: 4rem;
+  height: 1rem;
+  margin-left: 2rem;
 
 }
-
 nav li {
   text-align: center;
   margin: 0 10px;
-  height: 4rem;
+  height: 1rem;
 }
 
 nav a {
@@ -27,4 +27,30 @@ nav a {
 
 nav a:hover {
   color: #ff5733;
+}
+.movieList {
+  background-color:#202020;
+  width: 15rem;
+  margin-top: 10px; 
+ position: relative;
+ z-index: 1;
+  justify-content: center;
+}
+
+
+.movieCard {
+  margin-bottom: 10px; 
+  padding: 10px; 
+  color: white; 
+  
+}
+
+div.moviecard p{
+  font-size: 8px;
+}
+.movieCard:hover {
+  background-color: darkblue;
+}
+.nav-item {
+  margin-right: 15rem;
 }
