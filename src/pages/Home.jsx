@@ -1,7 +1,10 @@
 import { useState, useEffect } from 'react'
 import React from 'react';
-import '../App.css'
+import '../styles/Home.css'
 import ListSeatings from '../components/ListSeatings';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+
 
 function Home() {
   // state to store cinema data
@@ -13,7 +16,7 @@ function Home() {
   // state to track any error message
   const [error, setError] = useState(null);
 
-  console.log('Home component rendered');
+
 
   // function listSeatings() {
 
@@ -62,6 +65,8 @@ function Home() {
   }
 
   return (
+    <div>
+    <Header />
     <main>
       <h1>{cinemaData.cinema.name}</h1>
       <h2>Movies Right Now</h2>
@@ -90,9 +95,10 @@ function Home() {
           </li>
         ))}
       </ul>
-
-
+      
     </main>
+    <Footer />
+    </div>
   );
 }
 
