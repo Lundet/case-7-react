@@ -6,7 +6,7 @@ function Booking() {
         <div>
             <main>
                 <div>
-                    <Header />
+                    
                     <h1>Booking Page</h1>
                 </div>
             </main>

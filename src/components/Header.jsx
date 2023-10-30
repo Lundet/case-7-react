@@ -38,7 +38,7 @@ function Header({ cinemaData }) {
             />
             {filteredMovies.length > 0 && (
               <div className="movieList">
-                {filteredMovies.map(movie => (
+                {filteredMovies.slice(0, 4).map(movie => (
                   <div className="movieCard" key={movie.title}>
                     <div>Title: {movie.title}</div>
                     <img src={movie.image} alt="" width="50px" />
