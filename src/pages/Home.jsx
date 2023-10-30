@@ -14,7 +14,7 @@ function Home({ cinemaData, loading, error }) {
 
   return (
     <div>
-      <Header />
+     
       <main>
         <h1>{cinemaData.cinema.name}</h1>
         <h2>Movies Right Now</h2>

@@ -30,8 +30,8 @@ main {
     width: 10%;
     position: relative;
   }
-  
-  button.book-now{
+ 
+  button.read-more{
     background-color: #3498db;
     border: none;
     height: 60px;
@@ -41,7 +41,7 @@ main {
     bottom: 0; 
     align-self: center;
   }
-  button.book-now:hover {
+  button.read-more:hover {
     background-color: #2980b9;
   }
   
@@ -53,4 +53,3 @@ main {
   .social-icons img {
   margin: 0 10px; 
 }
-

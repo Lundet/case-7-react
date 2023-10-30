@@ -2,6 +2,7 @@ import Home from './pages/Home';
 import Booking from './pages/Booking';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
+import Header from './components/Header';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
   return (
     <Router>
       <div>
+      <Header cinemaData={cinemaData} loading={loading} error={error} />
         <Routes>
           <Route
             path="/"

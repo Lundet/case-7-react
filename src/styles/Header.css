@@ -17,7 +17,14 @@ nav li {
   margin: 0 10px;
   height: 1rem;
 }
-
+button.book-now{
+  width: 10rem;
+  height: 2rem;
+  background-color: #3498db;
+}
+button.book-now:hover{
+  background-color: #2980b9;
+}
 nav a {
   text-decoration: none;
   color: white;
@@ -49,7 +56,7 @@ div.moviecard p{
   font-size: 8px;
 }
 .movieCard:hover {
-  background-color: darkblue;
+  background-color: rgb(3, 3, 14);
 }
 .nav-item {
   margin-right: 15rem;
