@@ -1,9 +1,8 @@
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Booking from './pages/Booking';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
-
 
 function App() {
   const [cinemaData, setCinemaData] = useState(null);
@@ -34,16 +33,20 @@ function App() {
   return (
     <Router>
       <div>
-      <Header cinemaData={cinemaData} loading={loading} error={error} />
+        <Header cinemaData={cinemaData} loading={loading} error={error} />
         <Routes>
           <Route
             path="/"
             element={<Home cinemaData={cinemaData} loading={loading} error={error} />}
           />
-          <Route path="/booking" element={<Booking />} />
+          <Route
+            path="/booking/:movieTitle" // Use movieTitle as the parameter
+            element={<Booking cinemaData={cinemaData} loading={loading} error={error} />}
+          />
         </Routes>
       </div>
     </Router>
   );
 }
+
 export default App;

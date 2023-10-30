@@ -53,3 +53,11 @@ main {
   .social-icons img {
   margin: 0 10px; 
 }
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px; /* Add padding to space the content */
+}
