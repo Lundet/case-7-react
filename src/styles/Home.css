@@ -30,7 +30,12 @@ main {
     width: 10%;
     position: relative;
   }
- 
+ li.room{
+  margin: 2rem;
+  height: 15rem;
+  width: 500px;
+  text-align: center;
+ }
   button.read-more{
     background-color: #3498db;
     border: none;

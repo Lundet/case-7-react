@@ -40,6 +40,10 @@ function App() {
             element={<Home cinemaData={cinemaData} loading={loading} error={error} />}
           />
           <Route
+            path="/booking" // Use movieTitle as the parameter
+            element={<Booking cinemaData={cinemaData} loading={loading} error={error} />}
+          />
+          <Route
             path="/booking/:movieTitle" // Use movieTitle as the parameter
             element={<Booking cinemaData={cinemaData} loading={loading} error={error} />}
           />

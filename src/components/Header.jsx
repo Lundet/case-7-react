@@ -43,9 +43,9 @@ function Header({ cinemaData }) {
                     <div>Title: {movie.title}</div>
                     <img src={movie.image} alt="" width="50px" />
                     <p>{movie.description}</p>
-                    <a className="book-now" href="booking">
-                      <button className="book-now">Book</button>
-                    </a>
+                    <Link to={`/booking/${encodeURIComponent(movie.title)}`}>
+                    <button className='book-now'>Read more</button>
+                  </Link>
                   </div>
                 ))}
               </div>
