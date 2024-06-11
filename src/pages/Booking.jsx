@@ -1,4 +1,5 @@
-import React from 'react';
+
+import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
@@ -7,6 +8,7 @@ import '../styles/Booking.css';
 function Booking({ cinemaData, loading, error }) {
   const { movieTitle } = useParams();
 
+  const [bookedSeats, setBookedSeats] = useState([]);
   if (loading) {
     return <div>Loading...</div>;
   }
@@ -16,7 +18,7 @@ function Booking({ cinemaData, loading, error }) {
   }
 
   const selectedMovie = cinemaData.cinema.movies.find((movie) => movie.title === movieTitle);
-
+  console.log(bookedSeats)
   return (
     <div>
       <div className="centered-content">
@@ -35,8 +37,10 @@ function Booking({ cinemaData, loading, error }) {
             <div className="seat-map">
               {show.seats.map((seat) => (
                 <span
+                  onClick={() => !seat.booked ? setBookedSeats([...bookedSeats, seat.seatNumber]) : ""}
                   key={seat.seatNumber}
                   className={`seat ${seat.booked ? 'booked' : 'available'}`}
+                  
                 >
                   {seat.seatNumber}
                 </span>
@@ -45,7 +49,10 @@ function Booking({ cinemaData, loading, error }) {
           </li>
         ))}
       </ul>
-
+      <div>
+        <button onClick={() => alert("you have booked seat numbers: " + bookedSeats + " for the show: " + movieTitle)}>Confirm booking
+        </button>
+      </div>
       <h2>Other Movies</h2>
       <ul>
         {cinemaData.cinema.movies

@@ -23,11 +23,7 @@ function Header({ cinemaData }) {
               Home
             </Link>
           </li>
-          <li className="nav-item">
-            <Link to="/booking" className="header-link">
-              Booking
-            </Link>
-          </li>
+          
           <li className="item-input">
             <input
               placeholder="Search book title"
