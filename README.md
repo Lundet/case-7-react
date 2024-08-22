@@ -29,4 +29,20 @@ For an enhanced booking experience, I developed a visual seat selection system w
 ### 2. Managing Multiple Seat Bookings
 The booking system is capable of handling multiple seat reservations at once. Users can select the number of seats they want to book, and the system will update the availability in real-time. Some showtimes also feature pre-booked seats, adding complexity to the seat selection process, which I managed using state management in React.
 
+## Running the Project
 
+To run this project locally, follow these steps:
+
+1. **Clone the repository and navigate to it:**
+   First, clone the project repository to your local machine. Open a terminal and run:
+   git clone https://github.comLundet/case-7-react
+   cd case-7-react
+
+2. **Install dependencies**
+Before you can run the project, you need to install the necessary dependencies. Make sure you have Node.js installed. Then, run
+npm install
+
+3. **Start the development server**
+After the dependencies are installed, start the development server by running:
+npm start
+Once the server is running, open your web browser and navigate to http://localhost:3000 to view the application. You should now be able to browse movie listings, view showtimes, and make bookings.
