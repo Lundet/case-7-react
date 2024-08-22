@@ -5,7 +5,7 @@ In the "My Cinema" case, I developed a full-fledged cinema booking website using
 ## Key Features
 
 ### 1. Interactive Movie Listings
-I created a visually appealing and interactive movie listing page that displays all currently available movies along with their showtimes. Each movie has detailed information available, including descriptions, genres, and ratings.
+I created a visually appealing and interactive movie listing page that displays all currently available movies along with their showtimes. Each movie has detailed information available, including descriptions,times and rooms.
 
 ### 2. User-Friendly Booking Interface
 The site includes a streamlined and intuitive interface that allows users to easily select and book tickets for their desired showtimes. The booking process is designed to be simple, minimizing the number of steps required to complete a reservation.
@@ -18,9 +18,6 @@ To enhance the user experience, I implemented a search feature that allows users
 
 ![image](https://github.com/user-attachments/assets/527cac6f-6834-4cbc-9dcb-bdefb9284053)
 
-### 4. Responsive Design
-The website is built with a responsive design, ensuring that it looks and functions optimally on various devices, including desktops, tablets, and smartphones. This adaptability is crucial for providing a consistent user experience across different screen sizes.
-
-### 5. Data Integration with `useEffect`
+### 4. Data Integration with `useEffect`
 Using the `useEffect` hook, I integrated the website with backend services to fetch real-time movie data from a JSON file (`cinema.json`). This approach allowed the application to load and display up-to-date information, such as available movies and showtimes, directly from the data source.
 
