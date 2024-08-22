@@ -35,7 +35,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository and navigate to it:**
    First, clone the project repository to your local machine. Open a terminal and run:
-   git clone https://github.comLundet/case-7-react
+   git clone https://github.com/Lundet/case-7-react.git
    cd case-7-react
 
 2. **Install dependencies**
