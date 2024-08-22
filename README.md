@@ -21,3 +21,12 @@ To enhance the user experience, I implemented a search feature that allows users
 ### 4. Data Integration with `useEffect`
 Using the `useEffect` hook, I integrated the website with backend services to fetch real-time movie data from a JSON file (`cinema.json`). This approach allowed the application to load and display up-to-date information, such as available movies and showtimes, directly from the data source.
 
+## Advanced Features (Extra Requirements)
+
+### 1. Visual Seat Selection
+For an enhanced booking experience, I developed a visual seat selection system where users can see the available seats in a cinema and select their preferred spots by clicking on the seat icons. This visual representation improves the user experience by providing a clear and interactive way to choose seats.
+
+### 2. Managing Multiple Seat Bookings
+The booking system is capable of handling multiple seat reservations at once. Users can select the number of seats they want to book, and the system will update the availability in real-time. Some showtimes also feature pre-booked seats, adding complexity to the seat selection process, which I managed using state management in React.
+
+
